@@ -1,0 +1,29 @@
+.btn-home-container{
+    display: flex;
+}
+
+.btn-home-container button{
+    height: 40px;
+    padding: 0 30px 0 30px;
+    background: #000000;;
+    border-radius: 5px;
+    border: #000000;
+}
+
+.btn-home h6 {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+@media(min-width: 576px){
+    .btn-home-container button {
+        height: 60px;
+        width: auto;
+    }
+
+    .btn-home h6 {
+        font-size: 20px;
+    }
+}
